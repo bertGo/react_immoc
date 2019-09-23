@@ -1,0 +1,44 @@
+    //卡片标题
+    .TypesTitle{
+        position: relative;
+        font-size: 14px;
+        color: #93999F;
+        letter-spacing: 0.6px;
+        line-height: 36px;
+        text-align: center;
+        h3
+        {
+            display: inline-block;
+        }
+        .IconTitLeft
+        {
+            margin-right: 24px;
+            display: inline-block;
+            background-size: 100%;
+        }
+        .IconTitRight{
+            margin-left: 24px;
+            display: inline-block;
+            background-size: 100%;
+        }
+        p
+        {
+            display: inline;
+            font-size: 20px;
+            font-weight: 600;
+            color: #4D555D;
+            margin: 0 3px;
+        }
+        span
+        {
+            width: 56px;
+            height: 36px;
+        }
+    }
+    @for $p from 0 through 16 {
+        .IconTit#{$p}{
+            vertical-align: bottom;
+            background: url("/img/xuebi_types.png") no-repeat;
+            background-position: center ($p*(-36px)) ; 
+        }
+    }

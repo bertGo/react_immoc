@@ -1,0 +1,59 @@
+    //搜索栏
+    .search_warp
+    {
+        float: left;
+        // background: rgba(226, 171, 180, 0.404);
+        position: relative;
+        margin-left: 34px;
+        transition: 0.3s;
+
+        overflow: hidden;
+        .search_area
+        {
+            width: 260px;
+            height: 46px;
+            border-bottom: 1px solid #D9DDE1;
+            margin: 12px 0;
+            input{
+                border: 0;
+                outline: 0;
+                height: 10px;
+                padding: 10px 0;
+                margin-top: 10px;
+            }
+        }
+        .search_a{
+            position: absolute;
+            width: 130px;
+            height: 40px;
+            top: 25px;
+            right: 35px;
+            a
+            {
+                background-color: #f3f5f7;
+                color: #4D555D;
+                font-size: 12px;
+                padding: 3px 8px;
+                border-radius: 12px;
+            }
+        }
+        .showhide-search{
+            &:hover{
+                background: rgba(240, 20, 20,0.2) !important;
+                transition: 0.2s;
+                path{
+                    fill: #F01414 !important;
+                }
+                
+            }
+            border-radius: 18px;
+            position: absolute;
+            right: 0px;
+            top: 26px;
+            padding: 0 10px;
+            svg{
+                margin-bottom: -2px;
+                margin-top: 2px;
+            }
+        }
+    }

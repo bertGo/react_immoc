@@ -1,0 +1,16 @@
+.FooterLink{
+    text-align: left;
+    border: none;
+    padding: 0;
+    padding: 25px 0;
+    margin: 0 auto;
+    position: relative;
+    a{
+        margin: 0 10px;
+        color: #99a1a6;
+        line-height: 28px;
+        &:hover{
+            color: #4D555D;
+        }
+    }
+}

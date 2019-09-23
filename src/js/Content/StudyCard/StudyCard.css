@@ -1,0 +1,11 @@
+.ContainerTypesClearFix .StudyCard {
+  margin-top: 24px;
+  position: relative;
+  width: 1152px;
+  height: 1440px; }
+.ContainerTypesClearFix .math {
+  box-sizing: border-box;
+  height: 100px;
+  padding: 10px 10px; }
+
+/*# sourceMappingURL=StudyCard.css.map */

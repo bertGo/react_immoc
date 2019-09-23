@@ -1,0 +1,49 @@
+.Celebrity .titleList {
+  text-align: center;
+  margin: 38px auto 48px; }
+.Celebrity dd {
+  position: relative;
+  width: 136px;
+  text-align: center;
+  display: inline-block; }
+  .Celebrity dd .photo {
+    margin: 0 auto;
+    position: relative; }
+    .Celebrity dd .photo img {
+      width: 56px;
+      height: 56px;
+      border-radius: 50%;
+      box-shadow: 0 8px 16px 0 rgba(7, 17, 27, 0.1); }
+  .Celebrity dd .name {
+    font-size: 14px;
+    color: #07111B;
+    line-height: 16px;
+    margin-top: 8px; }
+  .Celebrity dd .title {
+    font-size: 12px;
+    color: #93999F;
+    font-weight: 400; }
+.Celebrity .crown {
+  position: absolute;
+  width: 26px;
+  height: 18px;
+  top: -16px;
+  left: 54px; }
+.Celebrity .crown_0 {
+  background: url("/img/Crown.png") no-repeat;
+  background-position: center 0px;
+  background-size: 100%; }
+.Celebrity .crown_1 {
+  background: url("/img/Crown.png") no-repeat;
+  background-position: center -18px;
+  background-size: 100%; }
+.Celebrity .crown_2 {
+  background: url("/img/Crown.png") no-repeat;
+  background-position: center -36px;
+  background-size: 100%; }
+.Celebrity .crown_3 {
+  background: url("/img/Crown.png") no-repeat;
+  background-position: center -54px;
+  background-size: 100%; }
+
+/*# sourceMappingURL=Celebrity.css.map */

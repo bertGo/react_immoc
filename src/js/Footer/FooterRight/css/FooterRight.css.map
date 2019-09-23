@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA,gBAAgB;EACZ,SAAS,EAAE,IAAI;EACf,OAAO,EAAE,CAAC;EACV,YAAY,EAAE,IAAI;EAClB,UAAU,EAAE,IAAI;EAChB,UAAU,EAAE,GAAG;EACf,KAAK,EAAE,OAAO;EACd,WAAW,EAAE,IAAI",
+"sources": ["FooterRight.scss"],
+"names": [],
+"file": "FooterRight.css"
+}

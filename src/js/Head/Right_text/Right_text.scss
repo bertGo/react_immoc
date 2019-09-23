@@ -1,0 +1,44 @@
+    //导航栏右侧
+    #right_text{
+        position: relative;
+        float: right;
+        //右侧文字部分
+        ul
+        {
+            li
+            {
+            float: left;
+            line-height: 72px;
+                a
+                {
+                    &:hover{
+                        color: red ;
+                        path{
+                            fill: red ;
+                        } 
+                    }
+                    padding: 0 18px;
+                }
+                .span
+                {
+                    color:#D9DDE1;
+                }
+            }
+            .shop{
+                position: relative;
+                svg{
+                    margin-right: 8px;
+                    margin-bottom: -2px;
+                }
+                overflow: hidden;
+                border-radius: 18px;
+                line-height: 72px;
+                a
+                {
+                    border: 1px solid #D9DDE1 !important;
+                    border-radius: 18px;
+                    padding: 8px 15px;
+                }
+            } 
+        }
+    }

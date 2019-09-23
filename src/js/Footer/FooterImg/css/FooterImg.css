@@ -1,0 +1,31 @@
+.FooterImg {
+  position: absolute;
+  width: auto;
+  right: 0;
+  bottom: 16px; }
+  .FooterImg .position {
+    display: none;
+    position: absolute;
+    width: 172px;
+    height: 212px;
+    background-image: url("/img/foot.png");
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    z-index: 999;
+    bottom: 68px;
+    right: 35px; }
+  .FooterImg .l {
+    display: inline-block;
+    margin-right: 18px;
+    text-align: center; }
+    .FooterImg .l:hover .position {
+      display: block; }
+    .FooterImg .l img {
+      display: inline; }
+    .FooterImg .l p {
+      font-size: 12px;
+      color: #4D555D;
+      line-height: 24px; }
+
+/*# sourceMappingURL=FooterImg.css.map */

@@ -1,0 +1,14 @@
+#left_text li {
+  float: left;
+  line-height: 70px;
+  height: 70px;
+  padding: 0 20px;
+  font-size: 16px;
+  transition: 0.3s; }
+  #left_text li:hover {
+    transition: 0.3s;
+    color: #1c1f21; }
+  #left_text li a {
+    color: #1c1f21; }
+
+/*# sourceMappingURL=Left_text.css.map */

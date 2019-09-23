@@ -1,0 +1,73 @@
+        //下载App下拉框
+        .down_app
+        {
+            display: none;
+            position: absolute;
+            top: 65px;
+            right: 235px;
+            border-radius: 8px;
+            width: 304px;
+            background: #fff;
+            padding: 10px 0px 22px 20px;
+            box-shadow: 0 8px 16px 0 rgba(7,17,27,0.2);
+            overflow: hidden;
+            z-index: 999 !important;
+            .title{
+                z-index: 999;
+            text-align: center;
+                h5
+                {
+                z-index: 999;
+                font-size: 14px;
+                font-weight: 400;
+                }
+                margin:  12px 0px;
+            }
+            .content
+            {
+                z-index: 999;
+                overflow: hidden;
+                .qr_code
+                {
+                z-index: 999;
+                float: left;
+                    img{
+                z-index: 999;
+                width: 108px;
+                        height: 108px;
+                    }
+                }
+                .App{
+                z-index: 999;
+                text-align: center;
+                    float: right;
+                    margin-right: 32px;
+                    position: relative;
+                    p
+                    {
+                        font-size: 12px;
+                        color: #4d555d;
+                    }
+                    a
+                    {
+                        &:hover
+                        {
+                            background: #07111b;
+                        }
+                        width: 132px;
+                        background: #4D555D;
+                        border-radius: 18px;
+                        margin-bottom: 8px;
+                        color: #fff;
+                        font-size: 12px;
+                        padding: 10px 5px;
+                        display: block;
+                    }
+                    svg
+                    {
+                        float: left;
+                        padding-left: 8px;
+                    }
+                }
+            }
+        }

@@ -1,0 +1,55 @@
+.down_app {
+  display: none;
+  position: absolute;
+  top: 65px;
+  right: 235px;
+  border-radius: 8px;
+  width: 304px;
+  background: #fff;
+  padding: 10px 0px 22px 20px;
+  box-shadow: 0 8px 16px 0 rgba(7, 17, 27, 0.2);
+  overflow: hidden;
+  z-index: 999 !important; }
+  .down_app .title {
+    z-index: 999;
+    text-align: center;
+    margin: 12px 0px; }
+    .down_app .title h5 {
+      z-index: 999;
+      font-size: 14px;
+      font-weight: 400; }
+  .down_app .content {
+    z-index: 999;
+    overflow: hidden; }
+    .down_app .content .qr_code {
+      z-index: 999;
+      float: left; }
+      .down_app .content .qr_code img {
+        z-index: 999;
+        width: 108px;
+        height: 108px; }
+    .down_app .content .App {
+      z-index: 999;
+      text-align: center;
+      float: right;
+      margin-right: 32px;
+      position: relative; }
+      .down_app .content .App p {
+        font-size: 12px;
+        color: #4d555d; }
+      .down_app .content .App a {
+        width: 132px;
+        background: #4D555D;
+        border-radius: 18px;
+        margin-bottom: 8px;
+        color: #fff;
+        font-size: 12px;
+        padding: 10px 5px;
+        display: block; }
+        .down_app .content .App a:hover {
+          background: #07111b; }
+      .down_app .content .App svg {
+        float: left;
+        padding-left: 8px; }
+
+/*# sourceMappingURL=Down.css.map */

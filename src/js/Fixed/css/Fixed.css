@@ -1,0 +1,51 @@
+.Go_to_top {
+  position: fixed;
+  padding: 0 16px;
+  top: 55%;
+  margin-top: -140px;
+  right: 0;
+  z-index: 9999;
+  background: white;
+  box-shadow: 0px 4px 12px 0px rgba(7, 17, 27, 0.1); }
+  .Go_to_top a {
+    text-decoration: none;
+    position: relative;
+    border-bottom: 1px solid #edf1f2;
+    padding-bottom: 10px;
+    display: block;
+    margin-top: 20px;
+    padding: 0px 3px;
+    padding-bottom: 10px; }
+    .Go_to_top a .icon {
+      display: block;
+      fill: #D9DDE1;
+      width: 26px;
+      height: 28px; }
+    .Go_to_top a:hover .icon {
+      display: none; }
+    .Go_to_top a:hover p {
+      display: block; }
+    .Go_to_top a:hover .wx {
+      display: block;
+      transition: scale(1);
+      opacity: 1; }
+    .Go_to_top a p {
+      display: none;
+      width: 26px;
+      color: #07111b;
+      font-size: 12px;
+      line-height: 14px; }
+
+.wx {
+  display: none;
+  position: absolute;
+  width: 172px;
+  height: 212px;
+  bottom: -4px;
+  right: 56px;
+  opacity: 0;
+  background: url("/img/right.png") no-repeat;
+  z-index: 9999999;
+  transition: opacity 0.25s, transform .3s; }
+
+/*# sourceMappingURL=Fixed.css.map */

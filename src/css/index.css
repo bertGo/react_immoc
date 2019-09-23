@@ -1,0 +1,221 @@
+@charset "UTF-8";
+body, html {
+  height: 100%;
+  width: 100%;
+  min-width: 1200px;
+  padding: 0px;
+  margin: 0px;
+  font: 14px/1.5 "PingFang SC", "微软雅黑", "Microsoft YaHei", Helvetica, "Helvetica Neue", Tahoma, Arial, sans-serif;
+  color: #1c1f21; }
+
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code, form, fieldset, legend, input, button, textarea, p, blockquote, th, td {
+  margin: 0;
+  padding: 0; }
+
+ul, ol {
+  list-style: none; }
+
+a {
+  text-decoration: none;
+  color: #4D555D;
+  font-weight: 400; }
+
+.ContainerTypesClearFix {
+  width: 1152px;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  padding: 36px 0 48px; }
+
+@media screen and (max-width: 1340px) {
+  #left_text li {
+    transition: 0.3s;
+    float: left;
+    line-height: 70px;
+    height: 70px;
+    padding: 0 8px !important;
+    font-size: 16px; }
+    #left_text li:hover {
+      transition: 0.3s;
+      color: #1c1f21; }
+    #left_text li a {
+      color: #1c1f21; }
+
+  .search_area {
+    width: 180px !important;
+    transition: 0.3s; } }
+@media screen and (max-width: 1210px) {
+  .search_warp {
+    display: none; } }
+.xuebi0 {
+  margin-top: 22px;
+  z-index: 888;
+  display: inline-block;
+  width: 36px;
+  height: 36px;
+  background: url("/img/xuebi.png") no-repeat;
+  background-size: 36px;
+  background-position: center 0px; }
+
+.xuebi1 {
+  margin-top: 22px;
+  z-index: 888;
+  display: inline-block;
+  width: 36px;
+  height: 36px;
+  background: url("/img/xuebi.png") no-repeat;
+  background-size: 36px;
+  background-position: center -36px; }
+
+.xuebi2 {
+  margin-top: 22px;
+  z-index: 888;
+  display: inline-block;
+  width: 36px;
+  height: 36px;
+  background: url("/img/xuebi.png") no-repeat;
+  background-size: 36px;
+  background-position: center -72px; }
+
+.xuebi3 {
+  margin-top: 22px;
+  z-index: 888;
+  display: inline-block;
+  width: 36px;
+  height: 36px;
+  background: url("/img/xuebi.png") no-repeat;
+  background-size: 36px;
+  background-position: center -108px; }
+
+.xuebi4 {
+  margin-top: 22px;
+  z-index: 888;
+  display: inline-block;
+  width: 36px;
+  height: 36px;
+  background: url("/img/xuebi.png") no-repeat;
+  background-size: 36px;
+  background-position: center -144px; }
+
+.IconTit0 {
+  vertical-align: bottom;
+  background: url("/img/xuebi_types.png") no-repeat;
+  background-position: center 0px; }
+
+.IconTit1 {
+  vertical-align: bottom;
+  background: url("/img/xuebi_types.png") no-repeat;
+  background-position: center -36px; }
+
+.IconTit2 {
+  vertical-align: bottom;
+  background: url("/img/xuebi_types.png") no-repeat;
+  background-position: center -72px; }
+
+.IconTit3 {
+  vertical-align: bottom;
+  background: url("/img/xuebi_types.png") no-repeat;
+  background-position: center -108px; }
+
+.IconTit4 {
+  vertical-align: bottom;
+  background: url("/img/xuebi_types.png") no-repeat;
+  background-position: center -144px; }
+
+.IconTit5 {
+  vertical-align: bottom;
+  background: url("/img/xuebi_types.png") no-repeat;
+  background-position: center -180px; }
+
+.IconTit6 {
+  vertical-align: bottom;
+  background: url("/img/xuebi_types.png") no-repeat;
+  background-position: center -216px; }
+
+.IconTit7 {
+  vertical-align: bottom;
+  background: url("/img/xuebi_types.png") no-repeat;
+  background-position: center -252px; }
+
+.IconTit8 {
+  vertical-align: bottom;
+  background: url("/img/xuebi_types.png") no-repeat;
+  background-position: center -288px; }
+
+.IconTit9 {
+  vertical-align: bottom;
+  background: url("/img/xuebi_types.png") no-repeat;
+  background-position: center -324px; }
+
+.IconTit10 {
+  vertical-align: bottom;
+  background: url("/img/xuebi_types.png") no-repeat;
+  background-position: center -360px; }
+
+.IconTit11 {
+  vertical-align: bottom;
+  background: url("/img/xuebi_types.png") no-repeat;
+  background-position: center -396px; }
+
+.IconTit12 {
+  vertical-align: bottom;
+  background: url("/img/xuebi_types.png") no-repeat;
+  background-position: center -432px; }
+
+.IconTit13 {
+  vertical-align: bottom;
+  background: url("/img/xuebi_types.png") no-repeat;
+  background-position: center -468px; }
+
+.IconTit14 {
+  vertical-align: bottom;
+  background: url("/img/xuebi_types.png") no-repeat;
+  background-position: center -504px; }
+
+.IconTit15 {
+  vertical-align: bottom;
+  background: url("/img/xuebi_types.png") no-repeat;
+  background-position: center -540px; }
+
+.IconTit16 {
+  vertical-align: bottom;
+  background: url("/img/xuebi_types.png") no-repeat;
+  background-position: center -576px; }
+
+.card1 {
+  z-index: 10;
+  position: relative;
+  background-image: url("/img/title1.jpg");
+  background-size: 100%; }
+
+.card2 {
+  z-index: 10;
+  position: relative;
+  background-image: url("/img/title2.jpg");
+  background-size: 100%; }
+
+.card3 {
+  z-index: 10;
+  position: relative;
+  background-image: url("/img/title3.jpg");
+  background-size: 100%; }
+
+.card4 {
+  z-index: 10;
+  position: relative;
+  background-image: url("/img/title4.jpg");
+  background-size: 100%; }
+
+.card5 {
+  z-index: 10;
+  position: relative;
+  background-image: url("/img/title5.jpg");
+  background-size: 100%; }
+
+.card6 {
+  z-index: 10;
+  position: relative;
+  background-image: url("/img/title6.jpg");
+  background-size: 100%; }
+
+/*# sourceMappingURL=index.css.map */

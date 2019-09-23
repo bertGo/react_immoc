@@ -1,0 +1,21 @@
+    //左侧超链接
+    #left_text{
+        li
+        {
+            &:hover
+            {
+                transition: 0.3s;
+                 color: #1c1f21;
+            }
+            float: left;
+            line-height: 70px;
+            height: 70px;
+            padding: 0 20px;
+            font-size: 16px;
+            transition: 0.3s;
+            a
+            {
+                color:#1c1f21;
+            }
+        }
+    }

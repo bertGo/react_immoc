@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAEA,oBAAoB;EAChB,QAAQ,EAAE,QAAQ;EAClB,UAAU,EAAE,IAAI;EAChB,QAAQ,EAAE,MAAM;EAChB,OAAO,EAAE,WAAW;EACpB,UAAU,EAAE,iCAAiC;EAC7C,OAAO,EAAE,EAAE",
+"sources": ["WhiteBackgroundCard.scss"],
+"names": [],
+"file": "WhiteBackgroundCard.css"
+}

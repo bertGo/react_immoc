@@ -1,0 +1,248 @@
+.waterfull
+{
+    position: absolute;
+    padding: 24px 32px 32px 32px;
+    width: 372px;
+    box-sizing: border-box;
+    background: #FFFFFF;
+    box-shadow: 0 4px 8px 0 rgba(7, 17, 27, 0.05);
+    border-radius: 8px;
+    transition: all .3s;
+    margin-right: 18px;
+    margin-bottom: 18px;
+    &:hover{
+        box-shadow: 0 8px 16px 0 rgba(7, 17, 27, 0.1);
+    }
+    //手记文章
+    //蓝色
+    .blueArticle
+    {
+        line-height: 16px;
+        margin-bottom: 8px;
+         display: inline-block;
+        font-size: 14px;
+        color: #008cc899;
+        svg
+        {
+            vertical-align: text-bottom;
+            margin-right: 8px;
+            path
+            {
+                fill:hsla(198, 100%, 39%, 0.6);
+            }
+        }
+    }
+    .bottomInfo
+    {
+        font-size: 12px;
+        color: #93999F;
+        line-height: 24px;
+        margin-top: 12px;
+        font-weight: 400;
+        a
+        {
+            color: #008cc899;
+            float: right;
+            &:hover{
+                color: #008CC8;
+                transition: 0.3s;
+                path
+                {
+                    transition: 0.3s;
+                    fill: #008CC8;
+                }
+            }
+        }
+        span
+        {
+            margin-right: 24px;
+        }
+    }
+    .title
+    {
+        font-size: 16px;
+        color: #07111B;
+        line-height: 24px;
+        overflow: hidden;
+        a
+        {
+            float: left;
+            width: 224px;
+            &:hover{
+        transition: all .3s;
+        color: #008CC8;
+            }
+        }
+        img
+        {
+            width: 72px;
+            height: 48px;
+            float: right;
+        }
+    }
+    p
+    {
+        display: block;
+        font-size: 12px;
+        color: #4D555D;
+        line-height: 24px;
+        text-align: justify;
+        word-break: break-all;
+        font-weight: 400;
+        margin-top: 8px;
+    }
+    .greenArticle
+    {
+            line-height: 16px;
+            margin-bottom: 8px;
+             display: inline-block;
+            font-size: 14px;
+            color: rgba(0, 180, 60, 0.6);
+            svg
+            {
+                vertical-align: text-bottom;
+                margin-right: 8px;
+                path
+                {
+                    fill:rgba(0, 180, 60, 0.6);
+                }
+            }
+    }
+    .greenA
+    {
+        display: block;
+        color: #1c1f21;
+        &:hover{
+            color: #00B43C;
+            transition: 0.3s;
+        }
+    }
+    .best
+    {
+        font-size: 12px;
+        color: #07111B;
+        line-height: 24px;
+        display: inline-block;
+        margin-top: 8px;
+    }
+    .content
+    {
+        font-size: 12px;
+        color: #4D555D;
+        line-height: 24px;
+        text-align: justify;
+        word-break: break-all;
+        font-weight: 400;
+        overflow: hidden;
+    }
+    .mores
+    {
+        float: right;
+        color:rgba(0, 180, 60, 0.6);
+        font-size: 12px;
+        margin-top: 12px;
+        &:hover
+        {
+            color: #00B43C;
+            transition: 0.3s;
+            path
+            {
+                fill: #00B43C;
+                transition: 0.3s;
+            }
+        }
+    }
+    //热门话题
+    .aa
+    {
+        overflow: hidden;
+        img
+        {
+            width: 72px;
+            height: 72px;
+            border-radius: 8px;
+            float: right;
+        }
+    }
+        .waterA
+        {
+            font-size: 16px;
+            color: rgba(0, 180, 60, 0.8);
+            line-height: 24px;
+            width: 224px;
+            float: left;
+            &:hover
+            {
+            transition: all .3s;
+            color:#00B43C;
+            }
+        }
+        .waterP
+        {
+            font-weight: 400;
+            font-size: 12px;
+            color: #4D555D;
+            line-height: 24px;
+            margin-top: 12px;
+            float: left;
+        }
+        .hotpic
+        {
+            display: inline-block;
+            font-size: 12px;
+            color: #FFFFFF;
+            line-height: 24px;
+            background: rgba(0, 180, 60, 0.5);
+            border-radius: 12px;
+            padding: 0 12px;
+            margin-bottom: 8px;
+        }
+        .details
+        {
+            color:#00b43c99;
+            font-size: 12px;
+            float: right;
+            &:hover{
+            transition: all .3s;
+                color: #00B43C;
+            }
+        }
+        .line
+        {
+            position: relative;
+            background-color: #D9DDE1;
+            height: 1px;
+            margin-top: 24px;
+            margin-bottom: 24px;
+            font-weight: 400;
+            span
+            {
+                position: absolute;
+                font-size: 12px;
+                padding-right: 12px;
+                color: #93999F;
+                background-color: #fff;
+                line-height: 16px;
+                top: -8px;
+                left: 0;
+            }
+        }
+        //往期回顾
+        .comeBack{
+            overflow: hidden;
+            margin-bottom: 16px;
+        .lineA
+        {
+            width: 224px;
+            float: left;
+            font-size: 14px;
+        }
+        img
+        {
+            width: 72px;
+            height: 72px;
+            border-radius: 8px;
+            float: right;
+        }
+    }
+}

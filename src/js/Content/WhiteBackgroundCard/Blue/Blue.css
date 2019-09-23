@@ -1,0 +1,9 @@
+.BlueBackgroundCard {
+  position: relative;
+  overflow: hidden;
+  padding: 36px 0 48px;
+  background: #f8fafc;
+  box-shadow: 0 2px 8px 0 rgba(7, 17, 27, 0.06);
+  z-index: 9; }
+
+/*# sourceMappingURL=Blue.css.map */

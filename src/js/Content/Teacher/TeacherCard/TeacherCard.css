@@ -1,0 +1,172 @@
+.TeacherCard {
+  position: absolute;
+  margin-left: 0px;
+  margin-top: 25px;
+  width: 100%; }
+
+.anileft {
+  position: absolute;
+  animation: myfirst 0.5s;
+  animation-fill-mode: forwards; }
+
+@keyframes myfirst {
+  0% {
+    margin-left: 0px; }
+  100% {
+    margin-left: 1180px; } }
+.anileftsm {
+  position: absolute;
+  animation: myfirstsm 0.5s;
+  animation-fill-mode: forwards; }
+
+@keyframes myfirstsm {
+  0% {
+    left: 0px; }
+  100% {
+    left: 1173px; } }
+.anilefthide {
+  position: absolute;
+  animation: myfirstHide 0.5s;
+  animation-fill-mode: forwards; }
+
+@keyframes myfirstHide {
+  0% {
+    left: 1173px; }
+  100% {
+    left: 2356px; } }
+.anilefts {
+  position: absolute;
+  animation: mysec 0.5s;
+  animation-fill-mode: forwards; }
+
+@keyframes mysec {
+  0% {
+    left: -1180px; }
+  100% {
+    left: 0px; } }
+.aniright {
+  position: absolute;
+  animation: myfirsts 0.5s;
+  animation-fill-mode: forwards; }
+
+@keyframes myfirsts {
+  0% {
+    margin-left: 0px; }
+  100% {
+    margin-left: -1180px; } }
+.anirights {
+  position: absolute;
+  animation: mysecs 0.5s;
+  animation-fill-mode: forwards; }
+
+@keyframes mysecs {
+  0% {
+    margin-left: 1180px; }
+  100% {
+    margin-left: 0px; } }
+.background {
+  background: url("/img/back.jpg") no-repeat center center;
+  height: 408px;
+  background-size: cover;
+  position: relative;
+  overflow: hidden; }
+  .background .ContainerTypesClearFix2 {
+    width: 1152px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    padding: 36px 0 48px; }
+    .background .ContainerTypesClearFix2 .TypesTitle {
+      position: relative;
+      font-size: 14px;
+      color: #fff;
+      letter-spacing: 0.6px;
+      line-height: 36px;
+      text-align: center; }
+      .background .ContainerTypesClearFix2 .TypesTitle h3 {
+        display: inline-block; }
+      .background .ContainerTypesClearFix2 .TypesTitle .IconTitLeft {
+        margin-right: 24px;
+        display: inline-block;
+        background-size: 100%; }
+      .background .ContainerTypesClearFix2 .TypesTitle .IconTitRight {
+        margin-left: 24px;
+        display: inline-block;
+        background-size: 100%; }
+      .background .ContainerTypesClearFix2 .TypesTitle p {
+        display: inline;
+        font-size: 20px;
+        font-weight: 600;
+        color: #fff;
+        margin: 0 3px; }
+      .background .ContainerTypesClearFix2 .TypesTitle span {
+        width: 56px;
+        height: 36px; }
+
+.back {
+  float: left;
+  position: relative;
+  width: 216px;
+  height: 248px;
+  margin-right: 18px;
+  text-align: center;
+  box-sizing: border-box;
+  background: rgba(255, 255, 255, 0.8);
+  box-shadow: 0 4px 8px 0 rgba(7, 17, 27, 0.05);
+  border-radius: 12px;
+  transition: all .3s; }
+  .back:hover {
+    background: #fff;
+    box-shadow: 0 8px 16px 0 rgba(7, 17, 27, 0.2); }
+    .back:hover .content {
+      transition: height .2s;
+      height: 147px;
+      margin-top: 50px; }
+    .back:hover .uimg {
+      width: 60px;
+      height: 60px;
+      margin-left: -30px;
+      transition: all .2s;
+      position: absolute;
+      top: -16.6px;
+      border-radius: 50%; }
+    .back:hover .name {
+      display: none; }
+    .back:hover .title {
+      display: none; }
+  .back .uimg {
+    display: block;
+    position: absolute;
+    top: -16.6px;
+    left: 50%;
+    margin-left: -48px;
+    width: 96px;
+    height: 96px;
+    border-radius: 50%; }
+  .back .name {
+    display: block;
+    font-size: 16px;
+    margin-top: 92px;
+    color: #07111b;
+    font-weight: 700; }
+  .back .title {
+    display: block;
+    font-size: 12px;
+    margin-bottom: 12px;
+    color: #4D555D;
+    line-height: 24px; }
+  .back .content {
+    display: block;
+    font-size: 12px;
+    line-height: 24px;
+    color: #4D555D;
+    width: 144px;
+    margin-top: 0px;
+    margin-left: 36px;
+    height: 72px;
+    text-overflow: ellipsis;
+    word-break: break-all;
+    overflow: hidden;
+    font-weight: 400; }
+
+/*# sourceMappingURL=TeacherCard.css.map */

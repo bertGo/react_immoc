@@ -1,0 +1,28 @@
+#right_text {
+  position: relative;
+  float: right; }
+  #right_text ul li {
+    float: left;
+    line-height: 72px; }
+    #right_text ul li a {
+      padding: 0 18px; }
+      #right_text ul li a:hover {
+        color: red; }
+        #right_text ul li a:hover path {
+          fill: red; }
+    #right_text ul li .span {
+      color: #D9DDE1; }
+  #right_text ul .shop {
+    position: relative;
+    overflow: hidden;
+    border-radius: 18px;
+    line-height: 72px; }
+    #right_text ul .shop svg {
+      margin-right: 8px;
+      margin-bottom: -2px; }
+    #right_text ul .shop a {
+      border: 1px solid #D9DDE1 !important;
+      border-radius: 18px;
+      padding: 8px 15px; }
+
+/*# sourceMappingURL=Right_text.css.map */

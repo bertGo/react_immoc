@@ -1,0 +1,37 @@
+.FooterImg{
+    position: absolute;
+    width: auto;
+    right: 0;
+    bottom: 16px;
+    .position{
+        display: none;
+        position: absolute;
+        width: 172px;
+        height: 212px;
+        background-image: url("/img/foot.png");
+        background-position: 0 0;
+        background-repeat: no-repeat;
+        background-size: 100%;
+        z-index: 999;
+        bottom: 68px;
+        right: 35px;
+    }
+    .l{
+        &:hover{
+            .position{
+                display: block;
+            }
+        }
+        img{
+            display: inline;
+        }
+        display: inline-block;
+        margin-right: 18px;
+        text-align: center;
+        p{
+            font-size: 12px;
+            color: #4D555D;
+            line-height: 24px;
+        }
+    }
+}

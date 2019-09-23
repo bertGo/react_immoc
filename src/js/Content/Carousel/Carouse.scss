@@ -1,0 +1,14 @@
+//轮播图板块
+.carousel
+{
+    position: relative;
+    height: 444px;
+    overflow: hidden;
+    width: 1152px;
+    margin: 0 auto;
+    margin-top: 30px;
+    border-radius: 8px;
+    background: #1c1f2146;
+    box-shadow: 0 12px 24px 0 rgba(7, 17, 27, 0.2);
+    z-index: 11;
+}

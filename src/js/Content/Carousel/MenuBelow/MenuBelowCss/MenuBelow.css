@@ -1,0 +1,74 @@
+.bottom {
+  position: absolute;
+  bottom: 0;
+  background: #F8FAFC;
+  padding: 36px 0 0px 48px; }
+  .bottom .banner_course_card {
+    width: 312px;
+    height: 60px;
+    margin-right: 48px;
+    margin-bottom: 36px;
+    float: left; }
+    .bottom .banner_course_card a img {
+      width: 64px;
+      height: 42px;
+      border-radius: 4px;
+      display: block;
+      float: left; }
+    .bottom .banner_course_card a .source_card {
+      margin-left: 16px;
+      float: left; }
+      .bottom .banner_course_card a .source_card:hover i {
+        color: red;
+        transition: 0.1s; }
+      .bottom .banner_course_card a .source_card .source_card_name {
+        font-weight: 400;
+        width: 232px;
+        font-size: 12px;
+        color: #07111B;
+        line-height: 20px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap; }
+      .bottom .banner_course_card a .source_card span {
+        box-sizing: border-box;
+        background: rgba(242, 13, 13, 0.6);
+        border-radius: 4px;
+        color: #fff;
+        font-size: 12px;
+        margin-left: 2px;
+        padding: 0 4px;
+        display: inline-block;
+        position: relative;
+        float: left;
+        font-weight: 700; }
+      .bottom .banner_course_card a .source_card .garde {
+        display: block;
+        float: left;
+        font-size: 12px;
+        color: #4D555D;
+        margin-left: 3px; }
+    .bottom .banner_course_card a .bold {
+      float: left;
+      font-size: 12px;
+      color: #4D555D;
+      line-height: 20px;
+      font-weight: bold; }
+    .bottom .banner_course_card a .red_bold {
+      float: left;
+      font-size: 12px;
+      color: #f01414;
+      line-height: 20px;
+      font-weight: bold; }
+    .bottom .banner_course_card a i {
+      float: left;
+      margin-left: 1px;
+      margin-right: 1px; }
+    .bottom .banner_course_card a .number {
+      width: 52px;
+      float: left;
+      display: block;
+      margin-left: 3px;
+      font-size: 12px; }
+
+/*# sourceMappingURL=MenuBelow.css.map */

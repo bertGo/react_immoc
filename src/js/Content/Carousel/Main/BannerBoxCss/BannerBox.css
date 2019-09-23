@@ -1,0 +1,28 @@
+.bannerBox {
+  position: absolute;
+  width: 100%;
+  height: 316px;
+  background: #D3D6D9; }
+  .bannerBox .swiper-pagination, .bannerBox .swiper-pagination-white {
+    z-index: 200 !important; }
+  .bannerBox .swiper-button-next, .bannerBox .swiper-button-white {
+    z-index: 200;
+    background-size: 27px 18px;
+    border-radius: 4px;
+    width: 36px;
+    height: 60px; }
+    .bannerBox .swiper-button-next:hover, .bannerBox .swiper-button-white:hover {
+      background-color: rgba(7, 17, 27, 0.6);
+      color: white !important;
+      width: 36px;
+      height: 60px; }
+  .bannerBox .swiper-pagination-bullet {
+    border: 1px solid rgba(255, 255, 255, 0.6); }
+  .bannerBox .swiper-container {
+    height: 316px; }
+  .bannerBox .swiper-wrapper {
+    z-index: 99; }
+    .bannerBox .swiper-wrapper .swiper-slide {
+      background-size: 936px 316px; }
+
+/*# sourceMappingURL=BannerBox.css.map */

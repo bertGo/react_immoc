@@ -1,0 +1,103 @@
+        //右侧购物车下拉框
+        .shop_nav
+        {
+            display: none;
+            z-index: 900;
+            background: #fff;
+            position: absolute;
+            top:65px;
+            right: 130px;
+            width: 334px;
+            padding:0 16px;
+            box-shadow: 0 8px 16px 0 rgba(28,31,33,0.2);
+            .top
+            {
+                padding: 15px 12px;
+                height: 20px;
+                border-bottom: 1px solid #D3D6D9;
+                h2
+                {
+                    font-size: 14px;
+                    float: left;
+                }
+                p
+                {
+                    float: right;
+                    color:#9199A1;
+                }
+            }    
+            .mid
+            {
+                text-align: center;
+                height: 284px;
+                h4
+                {
+                    font-size: 14px;
+                    font-weight: 500;
+                    color: #545C63;
+                    line-height: 24px;
+                }
+                p
+                {
+                    margin-bottom: 8px;
+                    font-size: 12px;
+                    color: #9199A1;
+                    line-height: 24px;
+                }
+                span
+                {
+                    margin: 36px 0 8px;
+                    display: block;
+                }
+                a
+                {
+                    display: block;
+                    color: rgba(240,20,20,0.6);
+                    font-size: 12px;
+                    line-height: 24px;
+                    margin-bottom: 4px;
+                
+                    &:hover{
+                        color: #F01414;
+                    }
+                }
+            }
+            .bottom{
+                padding: 16px 12px;
+                border-top: 1px solid #D3D6D9;
+                width: 85%;
+                .left{
+                    font-size: 12px;
+                    color: #93999f;
+                    display: block;
+                    float: left;
+                    &:hover
+                    {
+                        color: #4d555d;
+                    }
+                }
+                a
+                {
+                    padding-top: 5px;
+                    padding-bottom: 20px;
+                }
+                .right{
+                    width: 56px;
+                    color: #fff;
+                    font-size: 12px;
+                    line-height: 16px;
+                    padding: 8px 16px;
+                    padding-right: 10px;
+                    background: rgba(240,20,20,0.8);
+                    border-radius: 16px;
+                    border: none;
+                    float: right;
+                    display: block;
+                    &:hover
+                    {
+                        background: #f01414;
+                        transition: 0.3s;
+                    }
+                }
+            }
+        }

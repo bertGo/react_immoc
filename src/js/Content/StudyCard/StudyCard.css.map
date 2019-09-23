@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAGI,kCACA;EACI,UAAU,EAAE,IAAI;EAChB,QAAQ,EAAE,QAAQ;EAClB,KAAK,EAAE,MAAM;EACb,MAAM,EAAE,MAAM;AAGlB,6BACA;EACI,UAAU,EAAE,UAAU;EACtB,MAAM,EAAE,KAAK;EACb,OAAO,EAAE,SAAS",
+"sources": ["StudyCard.scss"],
+"names": [],
+"file": "StudyCard.css"
+}

@@ -1,0 +1,41 @@
+.bannerBox
+{
+    position: absolute;
+    width: 100%;
+    height: 316px;
+    background: #D3D6D9;
+    .swiper-pagination,.swiper-pagination-white
+    {
+        z-index: 200 !important;
+    }
+    .swiper-button-next ,.swiper-button-white 
+    {
+        z-index: 200;
+        background-size: 27px 18px;
+        border-radius: 4px;
+        width: 36px;
+        height: 60px;
+        &:hover{
+            background-color: rgba(7, 17, 27, 0.6);
+            color: white !important;
+            width: 36px;
+            height: 60px;
+        }
+    }
+    .swiper-pagination-bullet
+    {
+        border: 1px solid rgba(255, 255, 255, 0.6);
+    }
+    .swiper-container
+    {
+        height: 316px;
+    }
+    .swiper-wrapper
+    {
+        z-index: 99;
+        .swiper-slide
+        {
+            background-size: 936px 316px;
+        }
+    }
+}

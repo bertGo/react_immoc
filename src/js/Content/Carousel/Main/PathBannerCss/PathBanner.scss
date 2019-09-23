@@ -1,0 +1,57 @@
+        //轮播图下侧
+        .pathBanner
+        {
+            position: absolute;
+            bottom: 0px;
+            height: 128px;
+            padding: 0 18px;
+            overflow: hidden;
+            width: 100%;
+            box-shadow: 0px 4px 8px 0px rgba(7, 17, 27, 0.1);
+            background-color: #fff;
+            text-align: center;
+            a
+            {
+                text-align: center;
+                float: left;
+                font-size: 0;
+                display: block;
+                width: 20%;
+                height: 128px;
+                overflow: hidden;
+                &:hover{
+                    margin-top: -5px;
+                    transition: 0.3s;
+                }
+                .tit
+                {
+                    font-size: 14px;
+                    color: #07111B;
+                    letter-spacing: 1px;
+                    margin-top: 4px;
+                }
+                .dess
+                {
+                    font-size: 12px;
+                    color: #93999F;
+                    line-height: 16px;
+                    margin-top: 2px;
+                    font-weight: 400;
+                    word-break: break-all;
+                    white-space: nowrap;  
+                }
+            }
+            }
+            @for $a from 0 through 4{
+                .xuebi#{$a}
+                {
+                    margin-top: 22px;
+                    z-index: 888;
+                    display: inline-block;
+                    width: 36px;
+                    height: 36px;
+                    background:url("/img/xuebi.png") no-repeat;
+                    background-size: 36px;
+                    background-position: center ($a*-36px);
+                }
+            }

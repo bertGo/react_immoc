@@ -1,0 +1,176 @@
+.waterfull {
+  position: absolute;
+  padding: 24px 32px 32px 32px;
+  width: 372px;
+  box-sizing: border-box;
+  background: #FFFFFF;
+  box-shadow: 0 4px 8px 0 rgba(7, 17, 27, 0.05);
+  border-radius: 8px;
+  transition: all .3s;
+  margin-right: 18px;
+  margin-bottom: 18px; }
+  .waterfull:hover {
+    box-shadow: 0 8px 16px 0 rgba(7, 17, 27, 0.1); }
+  .waterfull .blueArticle {
+    line-height: 16px;
+    margin-bottom: 8px;
+    display: inline-block;
+    font-size: 14px;
+    color: #008cc899; }
+    .waterfull .blueArticle svg {
+      vertical-align: text-bottom;
+      margin-right: 8px; }
+      .waterfull .blueArticle svg path {
+        fill: rgba(0, 139, 199, 0.6); }
+  .waterfull .bottomInfo {
+    font-size: 12px;
+    color: #93999F;
+    line-height: 24px;
+    margin-top: 12px;
+    font-weight: 400; }
+    .waterfull .bottomInfo a {
+      color: #008cc899;
+      float: right; }
+      .waterfull .bottomInfo a:hover {
+        color: #008CC8;
+        transition: 0.3s; }
+        .waterfull .bottomInfo a:hover path {
+          transition: 0.3s;
+          fill: #008CC8; }
+    .waterfull .bottomInfo span {
+      margin-right: 24px; }
+  .waterfull .title {
+    font-size: 16px;
+    color: #07111B;
+    line-height: 24px;
+    overflow: hidden; }
+    .waterfull .title a {
+      float: left;
+      width: 224px; }
+      .waterfull .title a:hover {
+        transition: all .3s;
+        color: #008CC8; }
+    .waterfull .title img {
+      width: 72px;
+      height: 48px;
+      float: right; }
+  .waterfull p {
+    display: block;
+    font-size: 12px;
+    color: #4D555D;
+    line-height: 24px;
+    text-align: justify;
+    word-break: break-all;
+    font-weight: 400;
+    margin-top: 8px; }
+  .waterfull .greenArticle {
+    line-height: 16px;
+    margin-bottom: 8px;
+    display: inline-block;
+    font-size: 14px;
+    color: rgba(0, 180, 60, 0.6); }
+    .waterfull .greenArticle svg {
+      vertical-align: text-bottom;
+      margin-right: 8px; }
+      .waterfull .greenArticle svg path {
+        fill: rgba(0, 180, 60, 0.6); }
+  .waterfull .greenA {
+    display: block;
+    color: #1c1f21; }
+    .waterfull .greenA:hover {
+      color: #00B43C;
+      transition: 0.3s; }
+  .waterfull .best {
+    font-size: 12px;
+    color: #07111B;
+    line-height: 24px;
+    display: inline-block;
+    margin-top: 8px; }
+  .waterfull .content {
+    font-size: 12px;
+    color: #4D555D;
+    line-height: 24px;
+    text-align: justify;
+    word-break: break-all;
+    font-weight: 400;
+    overflow: hidden; }
+  .waterfull .mores {
+    float: right;
+    color: rgba(0, 180, 60, 0.6);
+    font-size: 12px;
+    margin-top: 12px; }
+    .waterfull .mores:hover {
+      color: #00B43C;
+      transition: 0.3s; }
+      .waterfull .mores:hover path {
+        fill: #00B43C;
+        transition: 0.3s; }
+  .waterfull .aa {
+    overflow: hidden; }
+    .waterfull .aa img {
+      width: 72px;
+      height: 72px;
+      border-radius: 8px;
+      float: right; }
+  .waterfull .waterA {
+    font-size: 16px;
+    color: rgba(0, 180, 60, 0.8);
+    line-height: 24px;
+    width: 224px;
+    float: left; }
+    .waterfull .waterA:hover {
+      transition: all .3s;
+      color: #00B43C; }
+  .waterfull .waterP {
+    font-weight: 400;
+    font-size: 12px;
+    color: #4D555D;
+    line-height: 24px;
+    margin-top: 12px;
+    float: left; }
+  .waterfull .hotpic {
+    display: inline-block;
+    font-size: 12px;
+    color: #FFFFFF;
+    line-height: 24px;
+    background: rgba(0, 180, 60, 0.5);
+    border-radius: 12px;
+    padding: 0 12px;
+    margin-bottom: 8px; }
+  .waterfull .details {
+    color: #00b43c99;
+    font-size: 12px;
+    float: right; }
+    .waterfull .details:hover {
+      transition: all .3s;
+      color: #00B43C; }
+  .waterfull .line {
+    position: relative;
+    background-color: #D9DDE1;
+    height: 1px;
+    margin-top: 24px;
+    margin-bottom: 24px;
+    font-weight: 400; }
+    .waterfull .line span {
+      position: absolute;
+      font-size: 12px;
+      padding-right: 12px;
+      color: #93999F;
+      background-color: #fff;
+      line-height: 16px;
+      top: -8px;
+      left: 0; }
+  .waterfull .comeBack {
+    overflow: hidden;
+    margin-bottom: 16px; }
+    .waterfull .comeBack .lineA {
+      width: 224px;
+      float: left;
+      font-size: 14px; }
+    .waterfull .comeBack img {
+      width: 72px;
+      height: 72px;
+      border-radius: 8px;
+      float: right; }
+
+/*# sourceMappingURL=HotTopic.css.map */

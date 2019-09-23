@@ -1,0 +1,13 @@
+.CourseCard {
+  margin-top: 24px;
+  margin-left: -18px; }
+  .CourseCard .Card {
+    width: 216px;
+    height: 252px;
+    float: left;
+    margin-left: 18px;
+    margin-bottom: 8px; }
+    .CourseCard .Card:hover .h3 {
+      color: #F20D0D; }
+
+/*# sourceMappingURL=CourseCard.css.map */
