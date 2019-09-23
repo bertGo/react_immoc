@@ -38,7 +38,7 @@
     @for $p from 0 through 16 {
         .IconTit#{$p}{
             vertical-align: bottom;
-            background: url("/home/abcd/immoc_react/src/img/xuebi_types.png") no-repeat;
+            background: url("/img/xuebi_types.png") no-repeat;
             background-position: center ($p*(-36px)) ; 
         }
     }
